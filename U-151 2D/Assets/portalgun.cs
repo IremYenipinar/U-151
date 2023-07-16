@@ -31,7 +31,7 @@ public class portalgun : MonoBehaviour
         float angle = Mathf.Atan2(aimdirection.y, aimdirection.x) * Mathf.Rad2Deg;
         transform.parent.eulerAngles = new Vector3(0, 0, angle);
         line.SetPosition(0,tip.transform.position);
-        line.SetPosition(1, Physics2D.Raycast(origin: gameObject.transform.parent.position, direction: gameObject.transform.right, distance: 100,layer).point);
+        line.SetPosition(1, Physics2D.Raycast(origin: gameObject.transform.parent.position, direction: gameObject.transform.right, distance: 1000,layer).point);
         if (Input.GetButtonDown("Fire1")) 
         {
             RaycastHit2D hit = Physics2D.Raycast(origin:gameObject.transform.parent.position,direction:gameObject.transform.right,distance:Mathf.Infinity,layerMask:LayerMask.GetMask("ground"));

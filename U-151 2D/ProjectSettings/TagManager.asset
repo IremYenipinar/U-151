@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - noportal
+  - player
   layers:
   - Default
   - TransparentFX

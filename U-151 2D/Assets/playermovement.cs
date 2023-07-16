@@ -31,7 +31,9 @@ public class playermovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rig.velocity *=  0.95f;
-        rig.AddForce(new Vector2(run * 50,0));
+        
+            rig.velocity  = new Vector2(rig.velocity.x * 0.95f,rig.velocity.y);
+        
+        rig.AddForce(new Vector2(run * 250 * 25,0));
     }
 }
