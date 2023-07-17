@@ -37,9 +37,9 @@ U-151
   Gelecek sprint için daha düzenli çalışılması gerektiğine karar verilmiştir.
 
 
- # Sprint 2
- - 2.Sprint İçinde Tamamlanması Hedeflenen Puan: 140
- - 2.Sprint İçinde Tamamlanan Puan: 120
+ # Sprint 3
+ - 3.Sprint İçinde Tamamlanması Hedeflenen Puan: 140
+ - 3.Sprint İçinde Tamamlanan Puan: 120
     ![image](https://github.com/IremYenipinar/U-151/assets/136253750/5e9d2699-22e7-47e1-b11a-27d759b911c1)
 - Günlük toplantılar genellikle WhatsApp üzerinden, toplanabiliyorsak Discord üzerinden yapıldı.
 - Sprint görev takibi ve günlük konuşmalardan görüntüler içeren miro board  https://miro.com/app/board/uXjVM98noec=/?share_link_id=285205699391
